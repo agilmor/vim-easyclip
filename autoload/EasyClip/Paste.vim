@@ -173,7 +173,7 @@ function! EasyClip#Paste#Paste(op, format, reg, inline)
                 normal! ^
             endif
         else
-            exec "keepjumps normal! `]"
+            exec "keepjumps normal! `]\<right>"
         endif
     endif
 
